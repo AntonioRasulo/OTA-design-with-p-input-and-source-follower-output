@@ -1,0 +1,57 @@
+Circuit: * C:\Users\rafus\Documents\Programmi microelettronica analogica\psm\psm_work\LTSpice\sch-home\Draft1.asc
+
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:        m2          m1
+Model:    p_psm025    n_psm025
+Id:       -3.00e-05    3.00e-05
+Vgs:      -7.63e-01    5.83e-01
+Vds:      -7.63e-01    5.83e-01
+Vbs:       0.00e+00    0.00e+00
+Vth:      -5.67e-01    4.25e-01
+Vdsat:    -1.97e-01    1.42e-01
+Gm:        2.54e-04    3.45e-04
+Gds:       1.47e-06    4.21e-06
+Gmb        8.29e-05    7.52e-05
+Cbd:       0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00
+Cgsov:     1.72e-14    6.88e-15
+Cgdov:     1.72e-14    6.88e-15
+Cgbov:     9.36e-19    1.00e-18
+dQgdVgb:   1.53e-13    7.34e-14
+dQgdVdb:  -1.72e-14   -6.57e-15
+dQgdVsb:  -1.26e-13   -6.35e-14
+dQddVgb:  -6.71e-14   -3.12e-14
+dQddVdb:   1.72e-14    6.72e-15
+dQddVsb:   6.59e-14    3.05e-14
+dQbdVgb:  -1.91e-14   -1.09e-14
+dQbdVdb:  -1.87e-17    1.06e-17
+dQbdVsb:  -2.26e-14   -4.47e-15
+
+
+
+Date: Wed Jul 17 11:37:58 2019
+Total elapsed time: 0.084 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 6
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 2
+fillins = 0
+solver = Normal
+Matrix Compiler1: 18 bytes object code size
+Matrix Compiler2: 82 bytes object code size

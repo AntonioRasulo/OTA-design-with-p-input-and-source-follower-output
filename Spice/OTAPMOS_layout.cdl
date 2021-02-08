@@ -1,0 +1,21 @@
+*******************************************************************************
+* CDL netlist
+*
+* Library : LibreriaBruschi
+* Top Cell Name: OTAPMOS
+* View Name: layout
+* Netlist created: 21.lug.2019 16:51:32
+*******************************************************************************
+
+*.SCALE METER
+*.GLOBAL 
+
+*******************************************************************************
+* Library Name: LibreriaBruschi
+* Cell Name:    OTAPMOS
+* View Name:    layout
+*******************************************************************************
+
+.SUBCKT OTAPMOS
+
+.ENDS

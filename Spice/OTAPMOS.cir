@@ -1,0 +1,21 @@
+* C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.asc
+*.SCALE METER
+M4 IB IB VDD VDD P_PSM025 l=1u w=26u
+M3 N001 IB VDD VDD P_PSM025 l=1u w=26u
+M2 K V2 N001 VDD P_PSM025 l=1u w=13u
+M6 H H 0 0 N_PSM025 l=1u w=6u
+M7 K K 0 0 N_PSM025 l=1u w=6u
+M5 A H 0 0 N_PSM025 l=1u w=6u
+M8 V0 K 0 0 N_PSM025 l=1u w=6u
+M9 A A VDD VDD P_PSM025 l=1u w=26u
+M10 V0 A VDD VDD P_PSM025 l=1u w=26u
+M11 VDD V0 Vout 0 N_PSM025 l=1u w=12u
+M12 Vout H 0 0 N_PSM025 l=1u w=6u
+M13 Vout K 0 0 N_PSM025 l=1u w=6u
+M1 H V1 N001 VDD P_PSM025 l=1u w=13u
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\rafus\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib PSM025.mos
+.backanno
+.end

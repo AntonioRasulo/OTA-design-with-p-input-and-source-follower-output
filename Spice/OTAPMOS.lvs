@@ -1,0 +1,38 @@
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 18:29:34 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			11
+  Number of ports   :       0			0
+
+There were no device property errors.
+17 (70%) matches were found by local matching.
+All nodes were matched in 5 passes.
+
+The netlists match.
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err
+
+Gemini completed at 18:29:34 on 23/07/2019
