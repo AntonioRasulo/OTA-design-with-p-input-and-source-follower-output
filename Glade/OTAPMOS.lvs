@@ -1,0 +1,204 @@
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 16:37:51 on 21/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       14
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       15
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       14			15
+  Number of ports   :       0			0
+
+
+The circuits are different.
+
+These circuits contain some symmetry (25% nodes not yet matched).
+Gemini will attempt to find a valid match for symmetrical nodes.
+
+The following transistors have property mismatches:
+
+                 OTAPMOS_extracted.cdl                      OTAPMOS.cir
+(1) Device type:                 N                                N
+    Inst name  :               MM6                              M11
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n2                              VDD
+    D:                          n7                             Vout
+    G:                          n6                               V0
+    W/L:   (um)        12.000/1.000                      0.000/0.000
+(2) Device type:                 N                                N
+    Inst name  :               MM3                               M8
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n6                               V0
+    D:                          n1                                0
+    G:                          n5                                K
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+(3) Device type:                 P                                P
+    Inst name  :              MM12                              M10
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n2                              VDD
+    D:                          n6                               V0
+    G:                          n0                                A
+    W/L:   (um)        26.000/1.000                      0.000/0.000
+(4) Device type:                 P                                P
+    Inst name  :               MM9                               M3
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n2                              VDD
+    D:                          n3                             N001
+    G:                          n4                               IB
+    W/L:   (um)        26.000/1.000                      0.000/0.000
+(5) Device type:                 P                                P
+    Inst name  :               MM7                               M4
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n2                              VDD
+    D:                          n4                               IB
+    G:                          n4                               IB
+    W/L:   (um)        26.000/1.000                      0.000/0.000
+(6) Device type:                 N                                N
+    Inst name  :               MM4                              M12
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n7                             Vout
+    D:                          n1                                0
+    G:                         n10                                H
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+(7) Device type:                 N                                N
+    Inst name  :               MM1                               M6
+    Model      :          N_PSM025                         N_PSM025
+    S:                         n10                                H
+    D:                          n1                                0
+    G:                         n10                                H
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+(8) Device type:                 P                                P
+    Inst name  :               MM8                              M14
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n3                             N001
+    D:                         n10                                H
+    G:                         n12                               V1
+    W/L:   (um)        13.000/0.950                      0.000/0.000
+(9) Device type:                 P                                P
+    Inst name  :              MM10                               M2
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n3                             N001
+    D:                          n5                                K
+    G:                         n13                               V2
+    W/L:   (um)        13.000/0.950                      0.000/0.000
+(10) Device type:                 P                                P
+    Inst name  :              MM11                               M9
+    Model      :          P_PSM025                         P_PSM025
+    S:                          n2                                A
+    D:                          n0                              VDD
+    G:                          n0                                A
+    W/L:   (um)        26.000/1.000                      0.000/0.000
+(11) Device type:                 N                                N
+    Inst name  :               MM2                               M7
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n5                                K
+    D:                          n1                                0
+    G:                          n5                                K
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+(12) Device type:                 N                                N
+    Inst name  :               MM0                               M5
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n8                                A
+    D:                          n1                                0
+    G:                         n10                                H
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+(13) Device type:                 N                                N
+    Inst name  :               MM5                              M13
+    Model      :          N_PSM025                         N_PSM025
+    S:                          n7                             Vout
+    D:                          n1                                0
+    G:                         n14                                K
+    W/L:   (um)        6.000/0.950                      0.000/0.000
+13 device property errors.
+9 (33%) matches were found by local matching.
+
+The following netlist mismatches occurred:
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS_extracted.cdl 
+-----------------------------------------------------------------------------
+7 NETS do not match:
+NET "n1"[0,-1, BAD] 13 connections
+NET "n2"[0,-1, BAD] 9 connections
+  P: (inst MM11) [g] n0 :: [s,d,sub] n2, n0, n2
+  P: (inst MM9) [g] n4 :: [s,d,sub] n2, n3, n2
+  P: (inst MM12) [g] n0 :: [s,d,sub] n2, n6, n2
+  P: (inst MM7) [g] n4 :: [s,d,sub] n2, n4, n2
+  N: (inst MM6) [g] n6 :: [s,d,sub] n2, n7, n1
+  P: (inst MM9) [g] n4 :: [s,d,sub] n2, n3, n2
+  P: (inst MM7) [g] n4 :: [s,d,sub] n2, n4, n2
+  P: (inst MM12) [g] n0 :: [s,d,sub] n2, n6, n2
+  P: (inst MM11) [g] n0 :: [s,d,sub] n2, n0, n2
+NET "n8"[0,-1, BAD] 1 connections
+  N: (inst MM0) [g] n10 :: [s,d,sub] n8, n1, n1
+NET "n14"[0,-1, BAD] 1 connections
+  N: (inst MM5) [g] n14 :: [s,d,sub] n7, n1, n1
+NET "n11"[0,-1, BAD] 2 connections
+  P: (inst MM8) [g] n12 :: [s,d,sub] n3, n10, n11
+  P: (inst MM10) [g] n13 :: [s,d,sub] n3, n5, n11
+NET "n0"[0,-1, BAD] 3 connections
+  P: (inst MM11) [g] n0 :: [s,d,sub] n2, n0, n2
+  P: (inst MM12) [g] n0 :: [s,d,sub] n2, n6, n2
+  P: (inst MM11) [g] n0 :: [s,d,sub] n2, n0, n2
+NET "n5"[0,-1, BAD] 4 connections
+  N: (inst MM3) [g] n
+5 :: [s,d,sub] n6, n1, n1
+  N: (inst MM2) [g] n5 :: [s,d,sub] n5, n1, n1
+  N: (inst MM2) [g] n5 :: [s,d,sub] n5, n1, n1
+  P: (inst MM10) [g] n13 :: [s,d,sub] n3, n5, n11
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS.cir 
+-----------------------------------------------------------------------------
+8 NETS do not match:
+NET "0"[0,-1, BAD] 9 connections
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+  N: (inst M11) [g] V0 :: [s,d,sub] VDD, Vout, 0
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+NET "K"[0,-1, BAD] 5 connections
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+  P: (inst M2) [g] V2 :: [s,d,sub] K, N001, VDD
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+NET "N003"[0,-1, BAD] 1 connections
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+NET "N004"[0,-1, BAD] 1 connections
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+NET "N002"[0,-1, BAD] 1 connections
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+NET "N005"[0,-1, BAD] 1 connections
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+NET "VDD"[0,-1, BAD] 11 connections
+NET "A"[0,-1, BAD] 4 connections
+  P: (inst M9) [g] A :: [s,d,sub] A, VDD, VDD
+  P: (inst M10) [g] A :: [s,d,sub] V0, VDD, VDD
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+  P: (inst M9) [g] A :: [s,d,sub] A, VDD, VDD
+
+13 devices and 6 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Glade\OTAPMOS.err
+
+Gemini completed at 16:37:51 on 21/07/2019

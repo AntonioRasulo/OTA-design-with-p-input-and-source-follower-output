@@ -1,0 +1,34 @@
+*******************************************************************************
+* CDL netlist
+*
+* Library : LibreriaBruschi
+* Top Cell Name: OTAPMOS
+* View Name: extracted
+* Netlist created: 21.lug.2019 16:37:50
+*******************************************************************************
+
+*.SCALE METER
+*.GLOBAL 
+
+*******************************************************************************
+* Library Name: LibreriaBruschi
+* Cell Name:    OTAPMOS
+* View Name:    extracted
+*******************************************************************************
+
+.SUBCKT OTAPMOS
+
+MM6 n2 n6 n7 n1 N_PSM025 w=1.2e-05 l=1e-06 as=1.86e-11 ps=2.71e-05 ad=1.74e-11 pd=2.69e-05 $X=150.6 $Y=4
+MM9 n2 n4 n3 n2 P_PSM025 w=2.6e-05 l=1e-06 as=3.12e-11 ps=5.44e-05 ad=2.86e-11 pd=5.42e-05 $X=73.3 $Y=24.5
+MM4 n7 n10 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=128.65 $Y=4.1
+MM7 n2 n4 n4 n2 P_PSM025 w=2.6e-05 l=1e-06 as=3.12e-11 ps=5.44e-05 ad=2.86e-11 pd=5.42e-05 $X=44.15 $Y=24.5
+MM5 n7 n14 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=139 $Y=4.1
+MM2 n5 n5 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=87.15 $Y=4.1
+MM8 n3 n12 n10 n11 P_PSM025 w=1.3e-05 l=9.5e-07 as=1.3e-11 ps=2.8e-05 ad=1.365e-11 pd=2.81e-05 $X=64.05 $Y=14.75
+MM3 n6 n5 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=96 $Y=4.1
+MM12 n2 n0 n6 n2 P_PSM025 w=2.6e-05 l=1e-06 as=3.12e-11 ps=5.44e-05 ad=2.86e-11 pd=5.42e-05 $X=134.55 $Y=24.5
+MM11 n2 n0 n0 n2 P_PSM025 w=2.6e-05 l=1e-06 as=3.12e-11 ps=5.44e-05 ad=2.86e-11 pd=5.42e-05 $X=103.8 $Y=24.5
+MM0 n8 n10 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=59.6 $Y=4.1
+MM1 n10 n10 n1 n1 N_PSM025 w=6e-06 l=9.5e-07 as=7.5e-12 ps=1.45e-05 ad=7.8e-12 pd=1.46e-05 $X=67.75 $Y=4.1
+MM10 n3 n13 n5 n11 P_PSM025 w=1.3e-05 l=9.5e-07 as=1.3e-11 ps=2.8e-05 ad=1.365e-11 pd=2.81e-05 $X=83.1 $Y=14.75
+.ENDS
