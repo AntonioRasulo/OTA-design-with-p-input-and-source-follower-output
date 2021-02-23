@@ -1,0 +1,999 @@
+# Glade copyright 2017 Peardrop Design Systems. All rights reserved.
+# Glade release version 4.6.70 compiled on Mar  1 2019 10:16:58
+# Qt version 5.11.0 on 64 bit platform (little endian)
+# Compiled with Visual C++ version 13.2
+# Log file: C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/glade_23.07.2019_17.27.29.log
+# Username: rafus Hostname: LAPTOP-1HAUMU2R
+# Current time: Tue Jul 23 17:27:30 2019
+# Operating system: Windows 10 (10.0)
+# Number of CPUs: 4
+# Available memory: 8108 Mb
+# MAC address: 80:CE:62:11:BD:B6
+# Display 0: Screen size (pixels): 1366 x 768
+# Logical dpi: 96.0 Physical dpi: 100.7
+# Display Scale Factor: 1.00
+# Display 0 coords = (0 0) (1365 727)
+# OpenGL vendor: Intel
+# OpenGL renderer: Intel(R) HD Graphics 610
+# OpenGL version: 4.5.0 - Build 25.20.100.6373
+# Python version 2.7.4 (default, Apr  6 2013, 19:55:15) [MSC v.1500 64 bit (AMD64)] for win32
+# PYTHONHOME is: C:\Users\rafus\Documents\Programmi microelettronica analogica\Glade\glade4_win64\Python27
+# INFO: Reading global preferences file C:/Users/rafus/gladerc.xml
+# INFO: Loaded library basic from C:/Users/rafus/Documents/Programmi microelettronica analogica/Glade/glade4_win64/basic
+ui().fileOpenLib()
+Opening library LibreriaBruschi
+# INFO: Reading library (version 550) C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Creating layer n_well purpose drawing
+# INFO: Creating layer active purpose drawing
+# INFO: Creating layer poly purpose drawing
+# INFO: Creating layer n_plus purpose drawing
+# INFO: Creating layer p_plus purpose drawing
+# INFO: Creating layer contact purpose drawing
+# INFO: Creating layer metal1 purpose drawing
+# INFO: Creating layer via purpose drawing
+# INFO: Creating layer metal2 purpose drawing
+# INFO: Creating layer glass purpose drawing
+# INFO: Creating layer potxt purpose drawing
+# INFO: Creating layer m1txt purpose drawing
+# INFO: Creating layer m2txt purpose drawing
+# INFO: Creating layer psub purpose drawing
+# INFO: Reading cell N_PSM025 view layout
+# INFO: Reading cell N_PSM025$$114990014 view layout
+# INFO: Reading cell N_PSM025$$681277637 view layout
+# INFO: Reading cell OTAPMOS view extracted
+# INFO: Reading cell OTAPMOS view layout
+# INFO: Reading cell P_PSM025 view layout
+# INFO: Reading cell P_PSM025$$2141837347 view layout
+# INFO: Reading cell P_PSM025$$2267780266 view layout
+# INFO: Rebinding library LibreriaBruschi
+# INFO: Rebinding library basic
+ui().openCellView("LibreriaBruschi", "OTAPMOS", "layout", 1)
+# INFO: Opened cell OTAPMOS view layout
+ui().selectPoint(50150, -3250, 0)
+ui().winPanUp()
+ui().selectPoint(74900, 8150, 0)
+ui().editCreateVia()
+# INFO: Aborting current command.
+ui().selectPoint(73700, 8450, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().editCreateVia()
+# INFO: Aborting current command.
+ui().selectPoint(74700, 4550, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 4.100)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+# WARNING: Please select something first.
+ui().selectPoint(74800, 4550, 0)
+ui().editCopy()
+# INFO: 1 object(s) copied with delta = (-4.000, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+# INFO: Aborting current command.
+ui().selectPoint(50400, 6850, 0)
+ui().winPanUp()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanRight()
+ui().editCreateVia()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+# INFO: Aborting current command.
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanUp()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanRight()
+ui().winPanUp()
+ui().winPanRight()
+ui().winPanRight()
+ui().editCreateVia()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanRight()
+ui().winPanDown()
+ui().winPanRight()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanRight()
+ui().winPanDown()
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+Writing cell OTAPMOS view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell N_PSM025 view layout
+ui().verifyDRCRun()
+Run DRC using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/drc.py
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.003 seconds
+# INFO: Building connectivity graph, 8 tasks
+# INFO: Build connectivity took 0.019 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.337 seconds
+# INFO: Total geomConnect time 0.365 seconds
+Check n_well
+Check active
+Check poly
+Check p_plus
+Check n_plus
+Check contact
+Check metal1
+Check via
+Check metal2
+4  errors detected
+ui().winFit()
+>>> # INFO: DRC run completed.
+ui().verifyDRCView()
+ui().winZoomOut()
+ui().winZoomOut()
+# INFO: Aborting current command.
+ui().selectPoint(117150, 24850, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().winPanUp()
+ui().winZoomOut()
+ui().winZoomOut()
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+Writing cell OTAPMOS view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell N_PSM025 view layout
+ui().verifyDRCRun()
+Run DRC using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/drc.py
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.005 seconds
+# INFO: Building connectivity graph, 8 tasks
+# INFO: Build connectivity took 0.031 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.294 seconds
+# INFO: Total geomConnect time 0.341 seconds
+Check n_well
+Check active
+Check poly
+Check p_plus
+Check n_plus
+Check contact
+Check metal1
+Check via
+Check metal2
+2  errors detected
+ui().winFit()
+>>> # INFO: DRC run completed.
+ui().verifyDRCView()
+ui().selectPoint(70750, 4550, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+Writing cell OTAPMOS view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell N_PSM025 view layout
+ui().verifyDRCRun()
+Run DRC using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/drc.py
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.002 seconds
+# INFO: Building connectivity graph, 8 tasks
+# INFO: Build connectivity took 0.017 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.276 seconds
+# INFO: Total geomConnect time 0.300 seconds
+Check n_well
+Check active
+Check poly
+Check p_plus
+Check n_plus
+Check contact
+Check metal1
+Check via
+Check metal2
+No Errors Detected
+ui().winFit()
+>>> # INFO: DRC run completed.
+ui().verifyLPERun()
+# WARNING: Deleting existing extracted view for cell OTAPMOS
+Run LPE using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/extract.py
+
+# Loading pcells
+ui().loadPCell("LibreriaBruschi", "N_PSM025")
+# WARNING: PCell N_PSM025 already loaded! Ignore reload.
+ui().loadPCell("LibreriaBruschi", "P_PSM025")
+# WARNING: PCell P_PSM025 already loaded! Ignore reload.
+# Get raw layers
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# Form derived layers
+# Label nactivees
+# WARNING: No text labels on layer potxt purpose drawing
+# WARNING: No text labels on layer m1txt purpose drawing
+# WARNING: No text labels on layer m2txt purpose drawing
+# Form connectivity
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.004 seconds
+# INFO: Building connectivity graph, 10 tasks
+# INFO: Build connectivity took 0.020 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.266 seconds
+# INFO: Total geomConnect time 0.297 seconds
+# Save interconnect
+# INFO: 2 shapes saved for layer psub drawing
+# INFO: 2 shapes saved for layer n_well drawing
+# INFO: 18 shapes saved for layer active drawing
+# INFO: 14 shapes saved for layer active drawing
+# INFO: 9 shapes saved for layer poly drawing
+# INFO: 244 shapes saved for layer contact drawing
+# INFO: 19 shapes saved for layer metal1 drawing
+# INFO: 9 shapes saved for layer via drawing
+# INFO: 4 shapes saved for layer metal2 drawing
+# INFO: Save Interconnect took 0.030 seconds
+# Extract MOS devices
+# Extraction completed.
+ui().openCellView("LibreriaBruschi", "OTAPMOS", "extracted", 1)
+# INFO: Opened cell OTAPMOS view extracted
+# INFO: LPE run completed.
+ui().verifyLVSRun()
+ui().exportCDL("LibreriaBruschi", "OTAPMOS", "extracted", "C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/OTAPMOS_extracted.cdl", "", "(null)", 1, 0, 0, "r", 0, "c" , -1, , 0, 0, 0, "", '<', '>')
+# INFO: Writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/OTAPMOS_extracted.cdl
+# INFO: Finished writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/OTAPMOS_extracted.cdl
+# INFO: Elapsed time = 0.003108s
+# INFO: Starting LVS with args 'gemini.exe -v -w 0.000000 -g C:\Users\rafus\Documents\Progetto microelettronica analogica\Glade\lay-home\OTAPMOS.err -S C:\Users\rafus\Documents\Progetto microelettronica analogica\Glade\lay-home\OTAPMOS_extracted.cdl C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.cir'
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 17:33:10 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       15
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			15
+  Number of ports   :       0			0
+
+
+The circuits are different.
+
+These circuits contain some symmetry (4% nodes not yet matched).
+Gemini will attempt to find a valid match for symmetrical nodes.
+There were no device property errors.
+17 (70%) matches were found by local matching.
+
+The following netlist mismatches occurred:
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS_extracted.cdl 
+-----------------------------------------------------------------------------
+1 NETS do not match:
+NET "n0"[0,-1, BAD] 13 connections
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS.cir 
+-----------------------------------------------------------------------------
+5 NETS do not match:
+NET "0"[0,-1, BAD] 9 connections
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+  N: (inst M11) [g] V0 :: [s,d,sub] VDD, Vout, 0
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+NET "N002"[0,-1, BAD] 1 connections
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+NET "N005"[0,-1, BAD] 1 connections
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+NET "N003"[0,-1, BAD] 1 connections
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+NET "N004"[0,-1, BAD] 1 connections
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Glade\lay-home\OTAPMOS.err
+
+Gemini completed at 17:33:10 on 23/07/2019
+# INFO: LVS finished with exit code 0
+# INFO: LVS completed.
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanDown()
+ui().winPanDown()
+ui().selectPoint(135350, 3900, 0)
+ui().properties("LibreriaBruschi", "OTAPMOS", "extracted")
+ui().selectPoint(127750, 1250, 0)
+ui().properties("LibreriaBruschi", "OTAPMOS", "extracted")
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell OTAPMOS view layout
+Writing cell N_PSM025 view layout
+ui().verifyLPERun()
+# WARNING: Deleting existing extracted view for cell OTAPMOS
+Run LPE using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/extract.py
+
+# Loading pcells
+ui().loadPCell("LibreriaBruschi", "N_PSM025")
+# WARNING: PCell N_PSM025 already loaded! Ignore reload.
+ui().loadPCell("LibreriaBruschi", "P_PSM025")
+# WARNING: PCell P_PSM025 already loaded! Ignore reload.
+# Get raw layers
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# Form derived layers
+# Label nactivees
+# WARNING: No text labels on layer potxt purpose drawing
+# WARNING: No text labels on layer m1txt purpose drawing
+# WARNING: No text labels on layer m2txt purpose drawing
+# Form connectivity
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.006 seconds
+# INFO: Building connectivity graph, 10 tasks
+# INFO: Build connectivity took 0.023 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.268 seconds
+# INFO: Total geomConnect time 0.306 seconds
+# Save interconnect
+# INFO: 2 shapes saved for layer psub drawing
+# INFO: 2 shapes saved for layer n_well drawing
+# INFO: 18 shapes saved for layer active drawing
+# INFO: 14 shapes saved for layer active drawing
+# INFO: 9 shapes saved for layer poly drawing
+# INFO: 244 shapes saved for layer contact drawing
+# INFO: 19 shapes saved for layer metal1 drawing
+# INFO: 9 shapes saved for layer via drawing
+# INFO: 4 shapes saved for layer metal2 drawing
+# INFO: Save Interconnect took 0.032 seconds
+# Extract MOS devices
+# Extraction completed.
+ui().openCellView("LibreriaBruschi", "OTAPMOS", "extracted", 1)
+# INFO: Opened cell OTAPMOS view extracted
+# INFO: LPE run completed.
+ui().selectPoint(56300, 150, 0)
+ui().selectPoint(58400, 6800, 0)
+ui().selectPoint(118900, -8600, 0)
+ui().selectPoint(111700, -28800, 0)
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanUp()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanUp()
+ui().winPanDown()
+ui().selectPoint(148000, -4200, 0)
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanLeft()
+ui().winPanDown()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanUp()
+ui().winPanLeft()
+ui().winPanRight()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanDown()
+ui().editCreateLabel()
+ui().editLabel()
+# INFO: Creating label IB on layer n_well at (57.550, 22.950)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+# INFO: Creating label A on layer n_well at (117.500, 20.950)
+ui().editLabel()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+# INFO: Creating label V0 on layer n_well at (147.900, 19.800)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanRight()
+ui().winPanDown()
+# INFO: Creating label Vout on layer n_well at (167.100, 4.150)
+ui().editLabel()
+ui().winPanLeft()
+ui().winPanLeft()
+# INFO: Creating label K on layer n_well at (127.950, 4.600)
+ui().editLabel()
+ui().winPanRight()
+# INFO: Creating label H on layer n_well at (146.350, 4.550)
+ui().editLabel()
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell OTAPMOS view layout
+Writing cell N_PSM025 view layout
+# ERROR: Please specify the pin name(s) to create!
+# ERROR: Please specify the pin name(s) to create!
+# INFO: Aborting current command.
+ui().editUndo()
+# INFO: Undoing last create
+ui().editUndo()
+# INFO: Undoing last create
+ui().editCreateLabel()
+ui().editLabel()
+# INFO: Creating label K on layer n_well at (146.300, 4.600)
+ui().editLabel()
+ui().winPanLeft()
+# INFO: Creating label H on layer n_well at (127.950, 4.450)
+ui().editLabel()
+ui().winPanLeft()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanLeft()
+# INFO: Creating label GND on layer n_well at (83.150, -5.550)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+# INFO: Creating label GND on layer n_well at (136.650, -4.650)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanUp()
+ui().winFit()
+ui().winZoomIn()
+ui().winZoomIn()
+# INFO: Creating label VDD on layer n_well at (74.150, 34.700)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanRight()
+# INFO: Creating label VDD on layer n_well at (113.550, 34.850)
+ui().editLabel()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanRight()
+ui().winPanLeft()
+# INFO: Creating label VDD on layer n_well at (144.800, 34.950)
+ui().editLabel()
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell OTAPMOS view layout
+Writing cell N_PSM025 view layout
+# ERROR: Please specify the pin name(s) to create!
+# INFO: Aborting current command.
+ui().winZoomOut()
+ui().winZoomOut()
+ui().winPanLeft()
+ui().winPanLeft()
+ui().winPanRight()
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell OTAPMOS view layout
+Writing cell N_PSM025 view layout
+ui().verifyDRCRun()
+Run DRC using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/drc.py
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.003 seconds
+# INFO: Building connectivity graph, 8 tasks
+# INFO: Build connectivity took 0.016 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.282 seconds
+# INFO: Total geomConnect time 0.308 seconds
+Check n_well
+Check active
+Check poly
+Check p_plus
+Check n_plus
+Check contact
+Check metal1
+Check via
+Check metal2
+No Errors Detected
+ui().winFit()
+>>> # INFO: DRC run completed.
+ui().verifyLPERun()
+# WARNING: Deleting existing extracted view for cell OTAPMOS
+Run LPE using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/extract.py
+
+# Loading pcells
+ui().loadPCell("LibreriaBruschi", "N_PSM025")
+# WARNING: PCell N_PSM025 already loaded! Ignore reload.
+ui().loadPCell("LibreriaBruschi", "P_PSM025")
+# WARNING: PCell P_PSM025 already loaded! Ignore reload.
+# Get raw layers
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# Form derived layers
+# Label nactivees
+# WARNING: No text labels on layer potxt purpose drawing
+# WARNING: No text labels on layer m1txt purpose drawing
+# WARNING: No text labels on layer m2txt purpose drawing
+# Form connectivity
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.005 seconds
+# INFO: Building connectivity graph, 10 tasks
+# INFO: Build connectivity took 0.020 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.271 seconds
+# INFO: Total geomConnect time 0.305 seconds
+# Save interconnect
+# INFO: 2 shapes saved for layer psub drawing
+# INFO: 2 shapes saved for layer n_well drawing
+# INFO: 18 shapes saved for layer active drawing
+# INFO: 14 shapes saved for layer active drawing
+# INFO: 9 shapes saved for layer poly drawing
+# INFO: 244 shapes saved for layer contact drawing
+# INFO: 19 shapes saved for layer metal1 drawing
+# INFO: 9 shapes saved for layer via drawing
+# INFO: 4 shapes saved for layer metal2 drawing
+# INFO: Save Interconnect took 0.051 seconds
+# Extract MOS devices
+# Extraction completed.
+ui().openCellView("LibreriaBruschi", "OTAPMOS", "extracted", 1)
+# INFO: Opened cell OTAPMOS view extracted
+# INFO: LPE run completed.
+ui().verifyLVSRun()
+ui().exportCDL("LibreriaBruschi", "OTAPMOS", "extracted", "C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl", "", "(null)", 1, 0, 0, "r", 0, "c" , -1, , 0, 0, 0, "", '<', '>')
+# INFO: Writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Finished writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Elapsed time = 0.002533s
+# INFO: Starting LVS with args 'gemini.exe -v -w 0.000000 -g C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err -S C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS_extracted.cdl C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.cir'
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 18:06:44 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       15
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			15
+  Number of ports   :       0			0
+
+
+The circuits are different.
+
+These circuits contain some symmetry (4% nodes not yet matched).
+Gemini will attempt to find a valid match for symmetrical nodes.
+There were no device property errors.
+17 (70%) matches were found by local matching.
+
+The following netlist mismatches occurred:
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS_extracted.cdl 
+-----------------------------------------------------------------------------
+1 NETS do not match:
+NET "n0"[0,-1, BAD] 13 connections
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS.cir 
+-----------------------------------------------------------------------------
+5 NETS do not match:
+NET "0"[0,-1, BAD] 9 connections
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+  N: (inst M11) [g] V0 :: [s,d,sub] VDD, Vout, 0
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+NET "N002"[0,-1, BAD] 1 connections
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+NET "N005"[0,-1, BAD] 1 connections
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+NET "N003"[0,-1, BAD] 1 connections
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+NET "N004"[0,-1, BAD] 1 connections
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err
+
+Gemini completed at 18:06:44 on 23/07/2019
+# INFO: LVS finished with exit code 0
+# INFO: LVS completed.
+ui().winPanUp()
+ui().winZoomIn()
+ui().winZoomIn()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanRight()
+ui().winPanDown()
+ui().winPanUp()
+ui().selectPoint(121950, -2750, 0)
+ui().winPanUp()
+ui().winPanUp()
+ui().winPanLeft()
+ui().winPanRight()
+ui().winZoomIn()
+ui().winPanDown()
+ui().winPanDown()
+ui().selectPoint(93300, 20900, 0)
+ui().winPanUp()
+ui().winPanDown()
+ui().editCreateLabel()
+ui().editLabel()
+# INFO: Creating label N001 on layer n_well at (86.750, 20.200)
+ui().editLabel()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanDown()
+ui().winPanLeft()
+ui().winPanUp()
+ui().winPanUp()
+ui().winFit()
+# ERROR: Please specify the pin name(s) to create!
+# INFO: Aborting current command.
+ui().fileSaveLib()
+# INFO: Saving library LibreriaBruschi to C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi
+# INFO: Saving library C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi, version = 550
+Writing cell P_PSM025 view layout
+Writing cell N_PSM025$$681277637 view layout
+Writing cell N_PSM025$$114990014 view layout
+Writing cell P_PSM025$$2267780266 view layout
+Writing cell P_PSM025$$2141837347 view layout
+# WARNING: Saving extracted view for cell OTAPMOS!
+Writing cell OTAPMOS view extracted
+Writing cell OTAPMOS view layout
+Writing cell N_PSM025 view layout
+ui().verifyLPERun()
+# WARNING: Deleting existing extracted view for cell OTAPMOS
+Run LPE using rules file C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/extract.py
+
+# Loading pcells
+ui().loadPCell("LibreriaBruschi", "N_PSM025")
+# WARNING: PCell N_PSM025 already loaded! Ignore reload.
+ui().loadPCell("LibreriaBruschi", "P_PSM025")
+# WARNING: PCell P_PSM025 already loaded! Ignore reload.
+# Get raw layers
+# INFO: Read 2 shapes from layer n_well drawing
+# INFO: Read 19 shapes from layer active drawing
+# INFO: Read 9 shapes from layer poly drawing
+# INFO: Read 6 shapes from layer n_plus drawing
+# INFO: Read 4 shapes from layer p_plus drawing
+# INFO: Read 244 shapes from layer contact drawing
+# INFO: Read 19 shapes from layer metal1 drawing
+# INFO: Read 9 shapes from layer via drawing
+# INFO: Read 4 shapes from layer metal2 drawing
+# Form derived layers
+# Label nactivees
+# WARNING: No text labels on layer potxt purpose drawing
+# WARNING: No text labels on layer m1txt purpose drawing
+# WARNING: No text labels on layer m2txt purpose drawing
+# Form connectivity
+# INFO: Connectivity analysis may use 4 threads
+# INFO: Set up tasks took 0.004 seconds
+# INFO: Building connectivity graph, 10 tasks
+# INFO: Build connectivity took 0.022 seconds
+# INFO: Extract connectivity graph...
+# INFO: Graph search took 0.286 seconds
+# INFO: Total geomConnect time 0.319 seconds
+# Save interconnect
+# INFO: 2 shapes saved for layer psub drawing
+# INFO: 2 shapes saved for layer n_well drawing
+# INFO: 18 shapes saved for layer active drawing
+# INFO: 14 shapes saved for layer active drawing
+# INFO: 9 shapes saved for layer poly drawing
+# INFO: 244 shapes saved for layer contact drawing
+# INFO: 19 shapes saved for layer metal1 drawing
+# INFO: 9 shapes saved for layer via drawing
+# INFO: 4 shapes saved for layer metal2 drawing
+# INFO: Save Interconnect took 0.067 seconds
+# Extract MOS devices
+# Extraction completed.
+ui().openCellView("LibreriaBruschi", "OTAPMOS", "extracted", 1)
+# INFO: Opened cell OTAPMOS view extracted
+# INFO: LPE run completed.
+ui().verifyLVSRun()
+ui().exportCDL("LibreriaBruschi", "OTAPMOS", "extracted", "C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl", "", "(null)", 1, 0, 0, "r", 0, "c" , -1, , 0, 0, 0, "", '<', '>')
+# INFO: Writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Finished writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Elapsed time = 0.002784s
+# INFO: Starting LVS with args 'gemini.exe -v -w 0.000000 -g C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err -S C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS_extracted.cdl C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.cir'
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 18:28:16 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			11
+  Number of ports   :       0			0
+
+There were no device property errors.
+17 (70%) matches were found by local matching.
+All nodes were matched in 5 passes.
+
+The netlists match.
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err
+
+Gemini completed at 18:28:16 on 23/07/2019
+# INFO: LVS finished with exit code 0
+# INFO: LVS completed.
+ui().verifyLVSRun()
+ui().exportCDL("LibreriaBruschi", "OTAPMOS", "extracted", "C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl", "", "(null)", 1, 0, 0, "r", 0, "c" , -1, , 0, 0, 0, "", '<', '>')
+# INFO: Writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Finished writing CDL file C:/Users/rafus/Documents/Progetto microelettronica analogica/Spice/sch-home/OTAPMOS_extracted.cdl
+# INFO: Elapsed time = 0.002820s
+# INFO: Starting LVS with args 'gemini.exe -v -w 0.000000 -g C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err -S C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS_extracted.cdl C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.cir'
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 18:29:34 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			11
+  Number of ports   :       0			0
+
+There were no device property errors.
+17 (70%) matches were found by local matching.
+All nodes were matched in 5 passes.
+
+The netlists match.
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Spice\sch-home\OTAPMOS.err
+
+Gemini completed at 18:29:34 on 23/07/2019
+# INFO: LVS finished with exit code 0
+# INFO: LVS completed.
+# INFO: Saving global preferences file C:/Users/rafus/gladerc.xml
+# INFO: Saving cellview C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi/N_PSM025$$681277637/layout
+# INFO: Saving cellview C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi/N_PSM025$$114990014/layout
+# INFO: Saving cellview C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi/P_PSM025$$2267780266/layout
+# INFO: Saving cellview C:/Users/rafus/Documents/Progetto microelettronica analogica/Glade/lay-home/LibreriaBruschi/P_PSM025$$2141837347/layout
+# Normal exit.

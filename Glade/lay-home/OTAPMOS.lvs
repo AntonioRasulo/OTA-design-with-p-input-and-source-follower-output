@@ -1,0 +1,71 @@
+-----------------------------------------------------------------------------
+Gemini 2.7.4 (64 bit) Compiled at 12:52:04 on Feb  8 2019 by Visual C++ 13.2
+-----------------------------------------------------------------------------
+
+Gemini started at 17:33:10 on 23/07/2019
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS_extracted.cdl
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       11
+  Number of ports   :       0
+
+-----------------------------------------------------------------------------
+	Netlist summary before reduction : OTAPMOS.cir
+-----------------------------------------------------------------------------
+  Number of devices :       13
+  Number of nets    :       15
+  Number of ports   :       0
+
+
+-----------------------------------------------------------------------------
+	Netlist summary after reduction : 
+-----------------------------------------------------------------------------
+		OTAPMOS_extracted.cdl	      OTAPMOS.cir
+  Number of devices :       13			13
+  Number of nets    :       11			15
+  Number of ports   :       0			0
+
+
+The circuits are different.
+
+These circuits contain some symmetry (4% nodes not yet matched).
+Gemini will attempt to find a valid match for symmetrical nodes.
+There were no device property errors.
+17 (70%) matches were found by local matching.
+
+The following netlist mismatches occurred:
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS_extracted.cdl 
+-----------------------------------------------------------------------------
+1 NETS do not match:
+NET "n0"[0,-1, BAD] 13 connections
+
+-----------------------------------------------------------------------------
+	Netlist errors : OTAPMOS.cir 
+-----------------------------------------------------------------------------
+5 NETS do not match:
+NET "0"[0,-1, BAD] 9 connections
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+  N: (inst M11) [g] V0 :: [s,d,sub] VDD, Vout, 0
+  N: (inst M12) [g] H :: [s,d,sub] Vout, 0, 0
+  N: (inst M13) [g] K :: [s,d,sub] Vout, 0, 0
+NET "N002"[0,-1, BAD] 1 connections
+  N: (inst M5) [g] H :: [s,d,sub] A, 0, N002
+NET "N005"[0,-1, BAD] 1 connections
+  N: (inst M8) [g] K :: [s,d,sub] V0, 0, N005
+NET "N003"[0,-1, BAD] 1 connections
+  N: (inst M6) [g] H :: [s,d,sub] H, 0, N003
+NET "N004"[0,-1, BAD] 1 connections
+  N: (inst M7) [g] K :: [s,d,sub] K, 0, N004
+
+0 devices and 0 nets written to C:\Users\rafus\Documents\Progetto microelettronica analogica\Glade\lay-home\OTAPMOS.err
+
+Gemini completed at 17:33:10 on 23/07/2019
